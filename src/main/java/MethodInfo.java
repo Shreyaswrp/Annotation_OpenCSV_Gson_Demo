@@ -5,7 +5,7 @@ import java.lang.annotation.*;
 @Inherited
 @Retention(RetentionPolicy.RUNTIME)
 public @interface MethodInfo {
-    String author() default "himanshu";
+    String author() default "Shreya";
 
     String date();
 
